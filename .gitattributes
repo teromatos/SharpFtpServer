@@ -1,0 +1,35 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     text eol=crlf diff=csharp 
+*.vb     text eol=crlf diff=csharp 
+*.sln    text=auto eol=crlf merge=union 
+*.csproj text=auto merge=union
+*.vbproj text=auto merge=union
+*.fsproj text=auto merge=union
+*.dbproj text=auto merge=union
+
+# Standard to msysgit
+*.doc    diff=astextplain
+*.DOC    diff=astextplain
+*.docx   diff=astextplain
+*.DOCX   diff=astextplain
+*.dot    diff=astextplain
+*.DOT    diff=astextplain
+*.pdf    diff=astextplain
+*.PDF    diff=astextplain
+*.rtf    diff=astextplain
+*.RTF    diff=astextplain
+
+*.jpg  	binary
+*.png 	binary
+*.gif 	binary
+
+*.aspx   text eol=crlf 
+*.asax   text eol=crlf 
+*.html   text eol=crlf
+*.htm    text eol=crlf
+*.config text=auto 
+*.css    text=auto
+*.js     text=auto
